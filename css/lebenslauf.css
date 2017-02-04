@@ -47,6 +47,13 @@ a {
   margin-bottom: 150px;
 }
 
+.htw a {
+  border-style: dotted;;
+  border-color: #76B900;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
 
 
 .nachoben a {

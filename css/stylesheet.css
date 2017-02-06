@@ -55,9 +55,12 @@ table {
 
 
 
-body
-{
+body{
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.ankerpunkt p {
+  color: white;
 }
 
 #leagleisberg {

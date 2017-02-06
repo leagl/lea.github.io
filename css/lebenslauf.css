@@ -1,30 +1,45 @@
-
-
 * {
   font-family: 'Dosis',  sans-serif;
 }
 
-a {text-decoration:none;color:black;}
-
-.Praktikum{
-  font-size: 1.5em;
-  border: 2px solid black;
-  border-radius: 8px;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-top: 60px;
+a {
+  text-decoration:none;color:black;
 }
 
-.lebenslauf p,li,h4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.lebenslauf h1 {
+#lebenslaufheader {
   font-family: 'Poiret One', cursive;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 5em;
+  margin-top: 75px;
+  margin-bottom: 30px;
+}
+
+.homelogo a {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.Praktikum {
+  font-size: 1.5em;
+  border: 1.5px solid black;
+  border-radius: 8px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 60px;
+  color: #2b2a2b;
+}
+
+.lebenslauf p,li,h4,h3,h2 {
+  font-family: 'Dosis',  sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.htw {
+  font-size: 1.5em;
 }

@@ -16,9 +16,13 @@ a {
   margin-bottom: 30px;
 }
 
-.homelogo a {
+.homelogo {
   display: flex;
   justify-content: space-around;
+}
+
+.homelogo a:hover {
+    color: #910000
 }
 
 
@@ -56,8 +60,12 @@ a {
 }
 
 
-.nachoben a {
+.nachoben {
   display: flex;
   justify-content: space-around;
   margin-bottom: 70px;
+}
+
+.nachoben a:hover {
+  color: #910000
 }
